@@ -4,6 +4,7 @@ import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
 import { AppRoutes } from "./components/routes/AppRoutes";
+import { UnderMaintanence } from "./components/UnderMaintanence";
 // import { Provider } from "react-redux";
 // import { getStore } from "./store";
 // const store = await getStore();
@@ -13,7 +14,8 @@ root.render(
   <React.StrictMode>
     {/* <Provider store={store}> */}
     <BrowserRouter>
-      <AppRoutes />
+      {/* <AppRoutes /> */}
+      <UnderMaintanence/>
     </BrowserRouter>
     {/* </Provider> */}
   </React.StrictMode>

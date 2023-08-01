@@ -3,6 +3,7 @@ import { CarouselPage } from "../carousel/CarouselPage";
 import { Vision } from "../Vision";
 import { Mission } from "../Mission";
 import { useNavigate } from "react-router-dom";
+import { UnderMaintanence } from "../UnderMaintanence";
 
 const useStyles = makeStyles((theme) =>
   createStyles({
@@ -127,6 +128,7 @@ export const ComponeyDetails = () => {
         efficient spaces for occupants while driving lasting value for their
         investments<span className={classes.readMore} onClick={() => navigate("/why-choose-us")}>...more</span>
       </Typography>
+      <UnderMaintanence/>
     </div>
   );
 };
